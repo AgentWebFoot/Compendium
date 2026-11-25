@@ -1,0 +1,4 @@
+/demo/*/compendium-*.tmp
+
+/node_modules/
+/test-results/

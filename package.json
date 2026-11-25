@@ -1,0 +1,29 @@
+{
+  "name": "compendium",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./browser": "./src/browser/index.js",
+    "./styles.css": "./src/browser/styles.css",
+    "./navigation": "./src/navigation.js",
+    "./typography": "./src/typography.js",
+    "./spellcheck": "./src/spellcheck.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "start": "node preview/server.js",
+    "start:writer": "node preview/server.js --writer",
+    "demo:new": "node scripts/new-demo.js",
+    "test": "node --test",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "dictionary-en": "4.0.0",
+    "nspell": "2.1.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}

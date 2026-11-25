@@ -1,0 +1,59 @@
+{
+  "id": "my-game",
+  "tabs": [
+    {
+      "id": "34b9a6e2-30da-4483-834e-aef97f5ff459",
+      "type": "normal",
+      "sections": [
+        {
+          "id": "5ee76cf7-e126-4382-8feb-634d76ffae9c",
+          "type": "normal",
+          "title": "Test2",
+          "color": "",
+          "collectionId": "collection-bddc1341-2874-43a8-a13f-64fc7d7b392e"
+        }
+      ],
+      "title": "Test",
+      "color": ""
+    },
+    {
+      "id": "61eee1a6-475a-48f2-a380-b9fb6595eb3b",
+      "type": "normal",
+      "sections": [
+        {
+          "id": "646c72b3-4e60-445c-8b98-557c9d41759f",
+          "type": "normal",
+          "title": "Test5",
+          "color": "",
+          "collectionId": "collection-e9499699-5e29-4445-b335-8dd6195c5e96"
+        }
+      ],
+      "title": "Test4",
+      "color": ""
+    }
+  ],
+  "collections": [
+    {
+      "id": "collection-bddc1341-2874-43a8-a13f-64fc7d7b392e",
+      "entries": [
+        {
+          "id": "4d86fe86-4d27-42b9-a44b-ce3027ff64e7",
+          "title": "Test3",
+          "content": "**Hello** *++~~~~++*\n<Test4>\n",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "id": "collection-e9499699-5e29-4445-b335-8dd6195c5e96",
+      "entries": [
+        {
+          "id": "1cf54176-fe98-466b-9341-301120c35069",
+          "title": "Test6",
+          "content": "",
+          "color": ""
+        }
+      ]
+    }
+  ]
+}
